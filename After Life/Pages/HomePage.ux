@@ -1,13 +1,13 @@
 <myPage ux:Class="HomePage">
 	<Router ux:Dependency="router" />
-
+	<JavaScript File="../Scripts/HomePage.js" />
 	<DockPanel>
 		<ScrollView>
 			<StackPanel Alignment="Center" >
-				<myCircButton Text="Play" Size="150" Margin="5" Alignment="Center" Offset="0, -50" />
+				<myCircButton Text="Play" Size="150" Margin="5" Alignment="Center" Offset="0, -50" Clicked="{goToPlay}" />
 				<Grid RowCount="1" ColumnCount="2" Margin="5" Offset="0,150" >
-					<myRectButton Row="0" Column="0" Text="Upload" Width="100px" Offset="-50,0" />
-					<myRectButton Row="0" Column="1" Text="Manage" Width="100px" Offset="50,0" />
+					<myRectButton Row="0" Column="0" Text="Upload" Width="150%" Offset="-50,0" Clicked="{goToUpload}" />
+					<myRectButton Row="0" Column="1" Text="Manage" Width="150%" Offset="50,0" Clicked="{goToManage}" />
 				</Grid>
 			</StackPanel>
 		</ScrollView>
