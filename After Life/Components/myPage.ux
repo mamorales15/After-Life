@@ -1,0 +1,3 @@
+<Page ux:Class="myPage" Color="#3E9F9F">
+	<myText Value="After Life" Alignment="Center" FontSize="32" />
+</Page>

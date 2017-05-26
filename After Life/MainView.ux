@@ -1,2 +1,15 @@
 <App>
+	<!--
+	<iOS.StatusBarConfig Style="Light" />
+	<Android.StatusBarConfig/>
+	-->
+
+	<DockPanel>
+		<ScrollView>
+			<StackPanel>
+				<Song File="Assets/Kick1.wav" Label="Kick1.wav" />
+				<Song File="Assets/Kick1.wav" Label="Kick1.wav" />
+			</StackPanel>
+		</ScrollView>
+	</DockPanel>
 </App>

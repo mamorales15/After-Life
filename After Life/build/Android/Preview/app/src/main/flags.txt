@@ -1,0 +1,7 @@
+/Users/martinmorales/Library/Android/sdk/ndk-bundle
+9
+armeabi-v7a
+-O3 -g -DNDEBUG
+
+ -I/Users/martinmorales/Library/Application\ Support/Fusetools/Packages/UnoCore/1.0.11/prebuilt/Android/include -I/Users/martinmorales/Library/Android/sdk/ndk-bundle/sources/android/support/include -I/Users/martinmorales/Library/Application\ Support/Fusetools/Packages/Fuse.Scripting.V8/1.0.2 -I/Users/martinmorales/Library/Application\ Support/Fusetools/Packages/Fuse.Text/1.0.2/harfbuzz/include
+/Users/martinmorales/Library/Android/sdk/ndk-bundle/sources/cxx-stl/stlport/stlport

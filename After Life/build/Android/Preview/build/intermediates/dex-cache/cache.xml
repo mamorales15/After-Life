@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_0369a8a23ef432e9ba7e8a6d935d8b7d388c8d9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/martinmorales/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_aa9f90c548d0bd36064ed39e109f3053a5c9d37a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_8124931db51c8d758f5b09d822e493eefa5e0dc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_4f2ea86dbd07a853221cde31d7f88349eaf5782f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_a958826f055c242e51ff9a694ed470b2003d3f32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/src/main/libs/nv-websocket-client.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e2859df4b1c217c768c1b4a23f54ef66af50140">
+        <dex dex="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/pre-dexed/debug/nv-websocket-client_133bf8825e4501bb8ecd888d5904fd7966529668.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_8661b9399977474d7f0a30e8839b01def539df02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_94cdced792e036d197cd414bb10c7353422e74af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/martinmorales/Desktop/After-Life/After Life/build/Android/Preview/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_8946c2ac294f229c3c133efb267f1f39627b45dc.jar" />
+    </item>
+
+</items>

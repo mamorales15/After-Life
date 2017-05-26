@@ -1,0 +1,4 @@
+$: 1275543583
+BuildCommand: build.sh
+RunCommand: run.sh
+Product: "After Life.apk"

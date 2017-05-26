@@ -1,0 +1,8 @@
+<Rectangle ux:Class="Song" Margin="5" Width="80%" Height="5%">
+	<FileSource ux:Property="File" />
+	<string ux:Property="Label" />
+	<myText Value="{ReadProperty Label}" Margin="5" Alignment="CenterLeft" FontSize="16" />
+	<Pressed>
+		<PlaySound File="{ReadProperty File}" />
+	</Pressed>
+</Rectangle>
