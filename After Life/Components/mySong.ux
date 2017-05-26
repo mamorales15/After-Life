@@ -1,0 +1,11 @@
+<Panel ux:Class="mySong" Margin="15" Width="300" Height="5" Length="3:31">
+	<string ux:Property="Label" />
+	<!-- TODO: Length should be gotten automatically. If that's not possible, remove it entirely -->
+	<string ux:Property="Length" />
+	<Grid RowCount="1" ColumnCount="3" >
+		<Text Value="{ReadProperty Label}" Column="0" Alignment="Center" />
+		<Text Value="{ReadProperty Length}" Column="1" Alignment="Center" />
+		<!-- TODO: Delete button should be a trashcan icon -->
+		<myRectButton Text="Del" Column="2" Alignment="Center" Width="50" Height="30" FontSize="12" />
+	</Grid>
+</Panel>

@@ -1,0 +1,14 @@
+<Panel ux:Class="myCircButton" Margin="10" Padding="10" FontSize="16">
+	<string ux:Property="Text" />
+	<float ux:Property="FontSize" />
+	<Size ux:Property="Size" />
+
+	<Circle Layer="Background" Color="Black" Width="{ReadProperty Size}" Height="{ReadProperty Size}">
+	</Circle>
+
+	<Text Value="{ReadProperty Text}" FontSize="{ReadProperty FontSize}" TextAlignment="Center" Color="White" />
+
+	<WhilePressed>
+		<Scale Factor=".95" Duration=".08" Easing="QuadraticOut" />
+	</WhilePressed>
+</Panel>

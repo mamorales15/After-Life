@@ -1,2 +1,20 @@
-<myPage>
+<myPage ux:Class="ManagePage">
+	<Router ux:Dependency="router" />
+
+	<DockPanel>
+		<ScrollView>
+			<StackPanel Alignment="Center" >
+				<Grid RowCount="1" ColumnCount="3" Offset="0,-175" >
+					<Text Value="FileName" Column="0" Alignment="Center" />
+					<Text Value="Length" Column="1" Alignment="Center" />
+					<Text Value="Delete" Column="2" Alignment="Center" />
+				</Grid>
+				<!-- TODO: RowCount should be the amount of songs saved -->
+				<Grid RowCount="2" Alignment="Center" Offset="0,-175" >
+					<mySong Label="foo.mp3" />
+					<mySong Label="bar.wav" />
+				</Grid>
+			</StackPanel>
+		</ScrollView>
+	</DockPanel>
 </myPage>

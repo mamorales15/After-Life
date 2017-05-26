@@ -1,2 +1,15 @@
-<myPage>
+<myPage ux:Class="HomePage">
+	<Router ux:Dependency="router" />
+
+	<DockPanel>
+		<ScrollView>
+			<StackPanel Alignment="Center" >
+				<myCircButton Text="Play" Size="150" Margin="5" Alignment="Center" Offset="0, -50" />
+				<Grid RowCount="1" ColumnCount="2" Margin="5" Offset="0,150" >
+					<myRectButton Row="0" Column="0" Text="Upload" Width="100px" Offset="-50,0" />
+					<myRectButton Row="0" Column="1" Text="Manage" Width="100px" Offset="50,0" />
+				</Grid>
+			</StackPanel>
+		</ScrollView>
+	</DockPanel>
 </myPage>

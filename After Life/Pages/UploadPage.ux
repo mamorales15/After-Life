@@ -1,2 +1,11 @@
-<myPage>
+<myPage ux:Class="UploadPage">
+	<Router ux:Dependency="router" />
+
+	<DockPanel>
+		<ScrollView>
+			<StackPanel Alignment="Center">
+				<Text Value="TODO: Upload Page" Offset="0,-200" />
+			</StackPanel>
+		</ScrollView>
+	</DockPanel>
 </myPage>

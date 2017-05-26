@@ -1,15 +1,15 @@
 <App>
-	<!--
 	<iOS.StatusBarConfig Style="Light" />
-	<Android.StatusBarConfig/>
-	-->
+	<Android.StatusBarConfig Color="#022328" />
 
-	<DockPanel>
-		<ScrollView>
-			<StackPanel>
-				<Song File="Assets/Kick1.wav" Label="Kick1.wav" />
-				<Song File="Assets/Kick1.wav" Label="Kick1.wav" />
-			</StackPanel>
-		</ScrollView>
-	</DockPanel>
+	<Router ux:Name="router" />
+
+	<ClientPanel>
+		<Navigator DefaultPath="manage">
+			<HomePage ux:Template="home" router="router" />
+			<PlayPage ux:Template="play" router="router" />
+			<UploadPage ux:Template="upload" router="router" />
+			<ManagePage ux:Template="manage" router="router" />
+		</Navigator>
+	</ClientPanel>
 </App>

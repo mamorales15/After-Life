@@ -1,2 +1,17 @@
-<myPage>
+<myPage ux:Class="PlayPage">
+	<Router ux:Dependency="router" />
+
+	<DockPanel>
+		<ScrollView>
+			<StackPanel Alignment="Center">
+				<Text Value="Playing" Alignment="Center" Offset="0,-200" />
+				<Text Value="foo.mp3" Alignment="Center" Offset="0,-175" />
+
+				<Grid RowCount="1" ColumnCount="2" Margin="5" Offset="0,150" >
+					<myRectButton Row="0" Column="0" Text="Pau/Res" Width="100px" Offset="-50,0" />
+					<myRectButton Row="0" Column="1" Text="Change" Width="100px" Offset="50,0" />
+				</Grid>
+			</StackPanel>
+		</ScrollView>
+	</DockPanel>
 </myPage>
